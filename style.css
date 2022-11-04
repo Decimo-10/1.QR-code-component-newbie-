@@ -20,7 +20,7 @@ body{
     border-radius: 10px;
 }
 .qr__text{
-    font-family: "outfit";
+    font-family: "outfit", Arial, Helvetica, sans-serif;
     font-size: 15px;
     margin: 15px 10px;
 }
