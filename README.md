@@ -1,13 +1,5 @@
 # Frontend Mentor - QR code component solution
 
-## Table of contents
-
-- [Overview](#overview)
-  - [Links](#links)
-  - [What I learned](#what-i-learned)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-
 
 ## Overview
 
