@@ -16,30 +16,25 @@ body{
 .qr__image{
     display: block;
     max-width: 300px;
-    margin: auto;
     border-radius: 10px;
 }
 .qr__text{
     font-family: "outfit", Arial, Helvetica, sans-serif;
-    font-size: 15px;
     margin: 15px 10px;
 }
 .qr__text--bold{
+    font-size: 24px;
     font-weight: 700;
     color: hsl(218, 44%, 22%);
 }
 .qr__text--thin{
     font-weight: 400;
     color: hsl(220, 15%, 55%);
-    margin-bottom: 0;
+    font-size: 15px;
+
 }
 
 .attribution{
+    margin-top: 25px;
     text-align: center;
 }
-
-
-
-
-
-
