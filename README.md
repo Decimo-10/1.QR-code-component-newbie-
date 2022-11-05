@@ -21,3 +21,6 @@ I tried to force myself to think thorough the project and make some kind of plan
 
 - Frontend Mentor - [@Decimo-10](https://www.frontendmentor.io/profile/Decimo-10)
 
+## Acknowledgments
+
+I would like to thank [@MelvinAguilar](https://www.frontendmentor.io/profile/MelvinAguilar) for his helpful feedback.
