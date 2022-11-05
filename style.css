@@ -2,16 +2,22 @@
     font-family: 'outfit';
     src: url(fonts/Outfit/Outfit-VariableFont_wght.ttf);
 }
+
+html{
+    font-size: 10px; /* For easier size calculation */
+}
+
 body{
     display: flex;
     min-height: 100vh;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-color:  hsl(212, 45%, 89%);
 }
 .qr{
-    width: 300px;
-    margin: auto;
+    max-width: 300px;/* For responsiveness */
+    margin: 15px;/* For space between the container and the screen edge on mobile devices */
     padding: 20px;
     border-radius: 20px;
     background-color: hsl(0, 0%, 100%);
@@ -19,7 +25,8 @@ body{
 }
 .qr__image{
     display: block;
-    max-width: 300px;
+    /* max-width: 300px; */
+    width: 100%;
     border-radius: 10px;
 }
 .qr__text{
@@ -27,18 +34,25 @@ body{
     margin: 15px 10px;
 }
 .qr__text--bold{
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: 700;
     color: hsl(218, 44%, 22%);
 }
 .qr__text--thin{
     font-weight: 400;
     color: hsl(220, 15%, 55%);
-    font-size: 15px;
+    font-size: 1.5rem;
 
 }
 
 .attribution{
     margin-top: 25px;
     text-align: center;
+    font-size: 1.5rem;
 }
+
+
+
+
+
+
